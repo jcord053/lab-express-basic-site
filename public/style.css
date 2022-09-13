@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+span {
+    color: red;
+}
+
+img {
+    border: 5px solid white;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+#links li {
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
